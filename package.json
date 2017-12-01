@@ -1,33 +1,27 @@
 {
-  "name": "cpf-mask-ng2",
+  "name": "ng2-select-2",
   "version": "1.0.0",
-  "description": "Máscara de CPF para Angular.",
-  "main": "./mask/index.js",
+  "description": "Custom select for angular 2.",
   "scripts": {
     "prepublish": "tsc"
   },
-  "author": "Charles Assunção",
+  "author": "Roberto Martins",
   "license": "ISC",
-  "files": [
-    "mask/"
-  ],
   "keywords": [
-    "mascara",
-    "cpf",
+    "custom",
     "angular 2",
     "ng2",    
-    "mask"
+    "select"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/assuncaocharles/cpf-mask-ng2.git"
+    "url": "https://github.com/bertinho20/ng2-select-2.git"
   },
   "dependencies": {
     "@angular/core": "~4.0.0",
     "@types/source-map": "^0.5.0",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
-    "vanilla-masker": "^1.1.1",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
