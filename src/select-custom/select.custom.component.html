@@ -1,0 +1,30 @@
+<div class="select-group">
+    <div class="below" (click)="(dados.length>0)?options.open = !options.open:'';" tabindex="0">
+        <div class="single">
+
+            <div class="placeholder">
+                {{getLabel()}}
+            </div>
+
+            <div class="toggle">
+                {{!options.open?'▼':'▲'}}
+            </div>
+        </div>
+
+    </div>
+
+    <div class="select-dropdown" *ngIf="options.open">
+
+        <div class="filter">
+            <input class='form-control' [(ngModel)]="search" placeholder="Pesquise o produtor">
+        </div>
+
+        <div class="options">
+            <ul>
+                <li class="select-li" *ngFor="let dado of dados | filterBy: { label: search } " (click)="selecionaDado(dado,$event)">
+                    <span>{{dado.label}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
