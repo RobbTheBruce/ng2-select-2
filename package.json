@@ -2,9 +2,6 @@
   "name": "ng2-select-2",
   "version": "1.0.0",
   "description": "Custom select for angular 2.",
-  "scripts": {
-    "prepublish": "tsc"
-  },
   "author": "Roberto Martins",
   "license": "ISC",
   "keywords": [
