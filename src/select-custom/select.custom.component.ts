@@ -16,7 +16,7 @@ export const CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR: any = {
     selector: "select-custom",
     templateUrl: "./select.custom.component.html",
     styleUrls: ["./select.custom.component.css",
-    "./bootstrap.min.css"],
+        "./assets/css/bootstrap.min.css"],
     providers: [CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR]
 })
 export class SelectCustomComponent implements ControlValueAccessor, OnChanges {
@@ -79,7 +79,7 @@ export class SelectCustomComponent implements ControlValueAccessor, OnChanges {
     }
 
 
-    selecionaDado(dado,event) {
+    selecionaDado(dado, event) {
         this.value = dado.value;
         this.writeValue(dado.value);
         this.options.open = false;
