@@ -27,8 +27,15 @@ import { SelectCustomModule } from 'ng2-select-2';
 Exemplo de como deve ser usado no projeto.
 
 ``` 
-<select-custom [dados]="exampleData"></select-custom>
+<select-custom [dados]="exampleData" [placeholder]="'selecione aqui'"></select-custom>
 ```
 
+Formato do json para o campo [dados]:
+``` 
+[
+  {label:'234',value:'1232'}
+]
+``` 
 
+Se for util pra vc, ajude doando no link abaixo:
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=772EPN8HX9EKQ)
