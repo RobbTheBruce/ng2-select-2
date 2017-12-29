@@ -8,7 +8,10 @@
     "experimentalDecorators": true,
     "declaration": true,
     "outDir": "./select",
-    "lib": ["es2015", "dom"]
+    "lib": ["es2015", "dom"],
+    "paths": {
+      "@angular/*": ["../node_modules/@angular/*"]
+    }
   },
   "files": [
     "./src/index.ts"
