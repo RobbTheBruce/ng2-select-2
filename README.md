@@ -37,5 +37,5 @@ Formato do json para o campo [dados]:
 ]
 ``` 
 
-Se for util pra vc, ajude doando no link abaixo:
+Se for util pra vc, ajude doando no link:
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=772EPN8HX9EKQ)
