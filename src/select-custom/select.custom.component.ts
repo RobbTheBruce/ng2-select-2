@@ -15,7 +15,8 @@ export const CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR: any = {
 @Component({
     selector: "select-custom",
     templateUrl: "./select.custom.component.html",
-    styleUrls: ["./select.custom.component.css"],
+    styleUrls: ["./select.custom.component.css",
+    "./bootstrap.min.css"],
     providers: [CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR]
 })
 export class SelectCustomComponent implements ControlValueAccessor, OnChanges {
